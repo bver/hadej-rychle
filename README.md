@@ -47,7 +47,7 @@ Typy znaků:
 
 Pozn.: Zadávaný znak může být velký nebo malý.
 
-Volitelné argumenty (options)
+Volitelné argumenty (options):
 
 * `--unique`  .. písmena se neopakují (vhodné v prvních krocích)
 * `--added <chars>`  .. vhodné v situaci, kdy se písmeno ve slově zobrazuje zeleně, ale na 
@@ -56,7 +56,7 @@ Volitelné argumenty (options)
 
 ### Příklad
 
-Hádanka ze dne 26.2. obsahovala slovo "UTKAT". Postup byl následující
+Hádanka ze dne 26.2. obsahovala slovo "UTKAT". Postup byl následující:
 
 ![alt příklad](example.png)
 
@@ -94,25 +94,26 @@ TÁZAT
 ...
 ```
 
-3. Z každou další maskou se množství vyhovujících slov snižuje. Přesto jich v této fázi 
+3. S každou další maskou se množství vyhovujících slov snižuje. Přesto jich v této fázi 
 dostáváme 20. Vybereme si "UTKAT" a máme štěstí. Čas: 4min 44s.
 
 ## ČKD
 
 1. Proč Ruby?
+
 Ruby je nedoceněný ergonomický jazyk. Mám ho rád a mrzí mě, že poslední dobou ztrácí na popularitě.
 
 2. Nešlo by to napsat jednodušeji?
+
 Určitě šlo a vím jak -- např. s větší pomocí regulárních výrazů. Pokud se mi bude chtít, zjednoduším to.
 
 3. Proč příkazová řádka?
+
 Nechtělo se mi z toho dělat větší projekt.
 
 4. Nebylo by lepší si raději lámat hlavu o pár minut déle?
+
 Asi bylo. Ta hra je dobrá, jen já jsem líný.
-
-    
-
 
 
 
