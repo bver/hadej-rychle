@@ -44,7 +44,6 @@ ARGV.each do |mask|
       pattern[i] = char
     when '+'
       blocked_positions[i] << char
-      reqired_chars << char
     when '.'
       #(0...5).each {|j| blocked_positions[j] << char }
       blocked_chars << char
