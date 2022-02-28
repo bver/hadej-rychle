@@ -8,8 +8,8 @@ In Czech.
 Tato utilita pomáhá rychlejšímu vyřešení hádanky, jež se každý den zjevuje na adrese 
 https://hadejslova.cz/
 
-Místo obvyklých 10-15 minut nutných každý den k intenzivnímu přemýšlení nad rébusem vám díky ní 
-stačí minut třeba 5, takže zbylý čas můžete věnovat něčemu užitečnějšímu.
+Místo obvyklých 10-15 minut nutných každý den k intenzivnímu přemýšlení nad rébusem vám díky
+tomuto skriptu stačí minut třeba 5, takže zbylý čas můžete věnovat něčemu užitečnějšímu.
 
 ## Předpoklady 
 
