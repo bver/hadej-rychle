@@ -37,6 +37,7 @@ required_chars = []
 blocked_positions = 5.times.map { Set.new }
 ARGV.each do |mask|
   (0..4).each do |i|
+    abort "wrong number of chars in mask #{mask}" unless mask.size == 10
     char = mask[2*i+1].upcase
     control = mask[2*i]
     case control

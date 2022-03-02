@@ -33,6 +33,10 @@ awk -F, 'length($1)==6' < CZ-UTF8.txt > CZ-UTF8-words5.txt
 Ať už získáte slovník jakkoliv, na konci procesu musí existovat soubor s pětipísmennými 
 českými slovy (co slovo, to řádek, kódování UTF-8) pojmenovaný `CZ-UTF8-words5.txt`.
 
+Pozn. Ačkoliv výše zmíněný slovník obsahuje i mnoho cizích nebo velmi nepravděpodobných slov,
+některá slova vám neporadí. Např. 1.3. bylo hádaným slovem `DABÉR`, které ve `wordlist/CZ.7z`
+nenajdete.
+
 ## Použití
 
 Utilita `hadej.rb` filtruje slova vyhovující maskám, které hádanka během hraní postupně poskytuje.
