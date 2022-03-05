@@ -99,7 +99,20 @@ TÁZAT
 ```
 
 3. S každou další maskou se množství vyhovujících slov snižuje. Přesto jich v této fázi 
-dostáváme 20. Vybereme si "UTKAT" a máme štěstí. Čas: 4min 44s.
+dostáváme 134. Vybereme si "UTKAT" a máme štěstí. Čas: 4min 44s.
+
+### Další příklad
+
+![alt příklad](example2.png)
+
+```
+$ ./hadej.rb -u '.n+o.t.e+s' |less
+$ ./hadej.rb -u '.n+o.t.e+s' '+o+s.i.k.a'  |less
+$ ./hadej.rb  '.n+o.t.e+s' '+o+s.i.k.a' '+m!á!s.l!o'  |less
+```
+
+#hadejSlova #den50 #krok4
+Čas: 3min 2s
 
 ## ČKD
 

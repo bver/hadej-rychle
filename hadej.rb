@@ -35,7 +35,7 @@ allowed_chars = Set.new weight.keys
 pattern = '.....'
 required_chars = []
 blocked_positions = 5.times.map { Set.new }
-ARGV.each do |mask|
+ARGV.each_with_index do |mask,idx|
   (0..4).each do |i|
     abort "wrong number of chars in mask #{mask}" unless mask.size == 10
     char = mask[2*i+1].upcase
@@ -44,8 +44,10 @@ ARGV.each do |mask|
     when '!'
       pattern[i] = char
     when '+'
-      blocked_positions[i] << char
-      required_chars << char unless required_chars.include? char
+      if idx == ARGV.size-1
+        blocked_positions[i] << char
+        required_chars << char unless required_chars.include? char
+      end
     when '.'
       blocked_positions.each {|pos| pos << char }
     else
