@@ -44,8 +44,8 @@ ARGV.each_with_index do |mask,idx|
     when '!'
       pattern[i] = char
     when '+'
+      blocked_positions[i] << char
       if idx == ARGV.size-1
-        blocked_positions[i] << char
         required_chars << char unless required_chars.include? char
       end
     when '.'
