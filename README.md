@@ -34,8 +34,8 @@ Ať už získáte slovník jakkoliv, na konci procesu musí existovat soubor s p
 českými slovy (co slovo, to řádek, kódování UTF-8) pojmenovaný `CZ-UTF8-words5.txt`.
 
 Pozn. Ačkoliv výše zmíněný slovník obsahuje i mnoho cizích nebo velmi nepravděpodobných slov,
-některá slova vám neporadí. Např. 1.3. bylo hádaným slovem `DABÉR`, které ve `wordlist/CZ.7z`
-nenajdete.
+některá slova vám neporadí. Např. hádaným slovem bylo `DABÉR` (1.3.)  nebo `ZUMBA` (13.3.).
+Tato slova ve `wordlist/CZ.7z` nenajdete.
 
 ## Použití
 
@@ -99,7 +99,7 @@ TÁZAT
 ```
 
 3. S každou další maskou se množství vyhovujících slov snižuje. Přesto jich v této fázi 
-dostáváme 134. Vybereme si "UTKAT" a máme štěstí. Čas: 4min 44s.
+dostáváme 124. Vybereme si "UTKAT" a máme štěstí. Čas: 4min 44s.
 
 ### Další příklad
 
