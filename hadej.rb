@@ -43,11 +43,10 @@ ARGV.each_with_index do |mask,idx|
     case control
     when '!'
       pattern[i] = char
+      required_chars << char if idx == ARGV.size-1
     when '+'
       blocked_positions[i] << char
-      if idx == ARGV.size-1
-        required_chars << char unless required_chars.include? char
-      end
+      required_chars << char if idx == ARGV.size-1
     when '.'
       blocked_positions.each {|pos| pos << char }
     else
